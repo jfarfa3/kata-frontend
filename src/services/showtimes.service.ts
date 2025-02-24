@@ -1,7 +1,7 @@
 import { Showtime, ShowtimeForm } from "../types/showtime.type";
 import { request } from "../utils/request";
 
-const URL = "http://localhost:8000/showtimes";
+const URL = "http://localhost:8080/showtimes";
 
 export async function getShowTimesByRoomId(room_id: number): Promise<Showtime[]> {
     return request<Showtime[]>(`${URL}/room/${room_id}`);

@@ -2,7 +2,7 @@ import { request } from "../utils/request"
 import { Reservation, ReservationForm} from "../types/reservation.type";
 import { ReservationState } from "../types/reservation.type";
 
-const URL = 'http://localhost:8000/reservations'
+const URL = 'http://localhost:8080/reservations'
 
 export async function getReservations(): Promise<Reservation[]> {
   return request<Reservation[]>(`${URL}/`)

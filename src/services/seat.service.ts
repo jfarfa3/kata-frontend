@@ -1,7 +1,7 @@
 import { Seat } from "../types/seats.type";
 import { request } from "../utils/request";
 
-const URL = "http://localhost:8000"
+const URL = "http://localhost:8080"
 
 export async function addSeatsToRoom(roomId: number, seats: Seat[]): Promise<boolean> {
   return request<boolean>(`${URL}/rooms/${roomId}/seats`, "PATCH", {seats});

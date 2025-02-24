@@ -1,7 +1,7 @@
 import { Room, RoomForm } from "../types/room.type"
 import { request } from "../utils/request"
 
-const URL = 'http://localhost:8000/rooms'
+const URL = 'http://localhost:8080/rooms'
 
 export async function getRooms(): Promise<Room[]> {
   return request<Room[]>(`${URL}/`)

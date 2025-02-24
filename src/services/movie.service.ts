@@ -1,7 +1,7 @@
 import { Movie, MovieForm } from "../types/movie.type"
 import { request } from "../utils/request"
 
-const URL = 'http://localhost:8000/movies'
+const URL = 'http://localhost:8080/movies'
 
 export async function getMovies(): Promise<Movie[]> {
   return request<Movie[]>(`${URL}/`)
