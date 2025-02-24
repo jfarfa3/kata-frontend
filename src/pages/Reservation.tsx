@@ -184,7 +184,7 @@ export default function ReservationPage() {
       addSeatsToReservation(result.id, seatsInCart),
       addSeatsToShowtime(showtime.id, [...seatsInCart, ...seatsSold]),
     ]).then(() => {
-      navigate(`/home`);
+      navigate(`/`);
     });
   };
 
