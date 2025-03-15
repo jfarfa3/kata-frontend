@@ -1,0 +1,7 @@
+site_name: Kata Frontend Docs
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Usage: usage.md
+plugins:
+  - techdocs-core
