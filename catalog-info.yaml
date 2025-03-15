@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kata-frontend
+  annotations:
+    github.com/project-slug: jfarfa3/kata-frontend
+spec:
+  type: frontend
+  lifecycle: production
+  owner: guests
