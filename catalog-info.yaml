@@ -21,3 +21,5 @@ spec:
   type: frontend
   lifecycle: production
   owner: frontend-team
+  dependsOn:
+    - component:kata-backend
