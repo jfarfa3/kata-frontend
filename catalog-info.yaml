@@ -5,6 +5,11 @@ metadata:
   annotations:
     github.com/project-slug: jfarfa3/kata-frontend
     backstage.io/techdocs-ref: dir:.
+  tags:
+    - frontend
+    - react
+    - vite
+    - tailwind
   links:
     - url: https://frontend.example.com
       title: Frontend Dashboard
